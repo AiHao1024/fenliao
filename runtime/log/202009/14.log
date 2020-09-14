@@ -1,0 +1,1888 @@
+---------------------------------------------------------------
+[ 2020-09-14T09:07:14+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php
+[运行时间：0.127891s] [吞吐率：7.82req/s] [内存消耗：3,138.96kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002256s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000345s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1599872621%7C35ec7ee5362c91a462b1e3961f494f06',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001239s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000386s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:16+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php
+[运行时间：0.132104s] [吞吐率：7.57req/s] [内存消耗：3,586.21kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001583s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000209s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1599872621%7C35ec7ee5362c91a462b1e3961f494f06; PHPSESSID=fqs018dgnikllu6roq5gqeiphs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/hvpfcjrqLE.php',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001073s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000245s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000530s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:16+08:00 ] 127.0.0.1 GET www.fenliao.com/index.php?s=/captcha
+[运行时间：0.209492s] [吞吐率：4.77req/s] [内存消耗：2,185.09kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002148s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000259s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1599872621%7C35ec7ee5362c91a462b1e3961f494f06; PHPSESSID=fqs018dgnikllu6roq5gqeiphs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpstudy_pro\WWW\fenliao\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:16+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=index&v=1600045636
+[运行时间：0.043339s] [吞吐率：23.07req/s] [内存消耗：3,452.58kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001606s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000225s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1599872621%7C35ec7ee5362c91a462b1e3961f494f06; PHPSESSID=fqs018dgnikllu6roq5gqeiphs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1600045636',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002550s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000084s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:27+08:00 ] 127.0.0.1 POST www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php
+[运行时间：0.451058s] [吞吐率：2.22req/s] [内存消耗：4,308.99kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002062s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000270s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1599872621%7C35ec7ee5362c91a462b1e3961f494f06; PHPSESSID=fqs018dgnikllu6roq5gqeiphs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php',
+  'origin' => 'http://www.fenliao.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '98',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/hvpfcjrqLE.php',
+  '__token__' => 'e9f9d10d6752bf8e393bb6d0dc7b5e62',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'yzmp',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001301s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000080s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.104225s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:27+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php
+[运行时间：0.425909s] [吞吐率：2.35req/s] [内存消耗：4,709.42kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000158s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004141s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000990s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/login?url=%2FhvpfcjrqLE.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000083s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000223s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:28+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/dashboard?addtabs=1
+[运行时间：0.288286s] [吞吐率：3.47req/s] [内存消耗：4,454.56kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001625s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000411s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001992s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000286s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000275s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:28+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=index&v=1600045647
+[运行时间：0.165147s] [吞吐率：6.06req/s] [内存消耗：4,471.23kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002161s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000270s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1600045647',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001143s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000109s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000161s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:07:28+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=dashboard&v=1600045647
+[运行时间：0.069873s] [吞吐率：14.31req/s] [内存消耗：4,469.63kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002210s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000237s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1600045647',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001503s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000104s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000140s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:24+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1
+[运行时间：0.083353s] [吞吐率：12.00req/s] [内存消耗：4,383.46kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001632s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000213s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001015s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000077s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ RUN ] app\admin\controller\News->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\News.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\news\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:24+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=news&v=1600045764
+[运行时间：0.049867s] [吞吐率：20.05req/s] [内存消耗：4,466.55kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001959s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000291s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1600045764',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000085s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000183s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:24+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600045764226
+[运行时间：0.180703s] [吞吐率：5.53req/s] [内存消耗：4,504.64kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002396s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000305s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600045764226',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001119s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000089s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ RUN ] app\admin\controller\News->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000510s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:25+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1
+[运行时间：0.072769s] [吞吐率：13.74req/s] [内存消耗：4,519.88kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001714s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001288s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000079s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\news_type\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:25+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=news_type&v=1600045765
+[运行时间：0.042302s] [吞吐率：23.64req/s] [内存消耗：4,466.38kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001581s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000207s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news_type',
+  'v' => '1600045765',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000977s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000083s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:09:25+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600045765390
+[运行时间：0.053375s] [吞吐率：18.74req/s] [内存消耗：4,415.45kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001651s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000218s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600045765390',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001171s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000103s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type?ref=addtabs
+[运行时间：0.067523s] [吞吐率：14.81req/s] [内存消耗：4,153.59kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001972s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000294s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003183s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000198s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/index/index
+[运行时间：0.096247s] [吞吐率：10.39req/s] [内存消耗：4,713.08kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001730s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000217s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001015s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000131s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/dashboard?addtabs=1
+[运行时间：0.063161s] [吞吐率：15.83req/s] [内存消耗：4,456.63kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001738s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001262s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000148s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1
+[运行时间：0.091969s] [吞吐率：10.87req/s] [内存消耗：4,378.48kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009627s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000828s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002651s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000087s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\news_type\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=index&v=1600045823
+[运行时间：0.058841s] [吞吐率：16.99req/s] [内存消耗：4,473.80kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001919s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000280s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1600045823',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000286s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=dashboard&v=1600045823
+[运行时间：0.060010s] [吞吐率：16.66req/s] [内存消耗：4,469.75kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003166s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000520s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1600045823',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000215s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:23+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=news_type&v=1600045823
+[运行时间：0.060747s] [吞吐率：16.46req/s] [内存消耗：4,466.50kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002557s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news_type',
+  'v' => '1600045823',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002309s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000111s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000215s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:10:24+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600045823754
+[运行时间：0.066198s] [吞吐率：15.11req/s] [内存消耗：4,415.57kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000105s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002165s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600045823754',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001108s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000143s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:21:31+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1
+[运行时间：0.061433s] [吞吐率：16.28req/s] [内存消耗：4,383.59kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002044s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000310s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001156s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000084s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ RUN ] app\admin\controller\News->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\News.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\news\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000196s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:21:31+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=news&v=1600046491
+[运行时间：0.047113s] [吞吐率：21.23req/s] [内存消耗：4,466.68kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002014s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000302s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1600046491',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001106s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000083s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000188s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:21:31+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600046491738
+[运行时间：0.056494s] [吞吐率：17.70req/s] [内存消耗：4,504.77kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004696s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000323s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600046491738',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001374s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000074s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ RUN ] app\admin\controller\News->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:26:38+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600045823755
+[运行时间：0.066595s] [吞吐率：15.02req/s] [内存消耗：4,415.57kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002178s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000314s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600045823755',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001222s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000120s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000231s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:58:44+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600046491739
+[运行时间：0.067175s] [吞吐率：14.89req/s] [内存消耗：4,504.77kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000118s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002688s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000375s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600046491739',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000111s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news.php
+[ info ] [ RUN ] app\admin\controller\News->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000490s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T09:58:45+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/news_type/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600045823756
+[运行时间：0.057417s] [吞吐率：17.42req/s] [内存消耗：4,415.57kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004552s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000360s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news_type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/news_type?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600045823756',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001454s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000075s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/news_type.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000189s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:18:54+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/training_list?addtabs=1
+[运行时间：0.115430s] [吞吐率：8.66req/s] [内存消耗：4,527.45kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002282s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000342s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'training_list',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/training_list?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001158s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000074s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/training_list.php
+[ info ] [ RUN ] app\admin\controller\TrainingList->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\TrainingList.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\training_list\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000245s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:18:54+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=training_list&v=1600049934
+[运行时间：0.049734s] [吞吐率：20.11req/s] [内存消耗：4,467.33kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001963s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000295s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/training_list?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'training_list',
+  'v' => '1600049934',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001094s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000159s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/training_list.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000233s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:18:54+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/training_list/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600049934313
+[运行时间：0.069196s] [吞吐率：14.45req/s] [内存消耗：4,505.60kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001729s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000239s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'training_list',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/training_list?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600049934313',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001119s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000080s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/training_list.php
+[ info ] [ RUN ] app\admin\controller\TrainingList->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\TrainingList.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:31:50+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/school_sign?addtabs=1
+[运行时间：0.082142s] [吞吐率：12.17req/s] [内存消耗：4,517.68kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000299s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'school_sign',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/school_sign?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001128s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000124s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/school_sign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\view\school_sign\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000192s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:31:51+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/ajax/lang?callback=define&controllername=school_sign&v=1600050710
+[运行时间：0.047029s] [吞吐率：21.26req/s] [内存消耗：4,467.25kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001968s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000318s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/school_sign?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'school_sign',
+  'v' => '1600050710',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001138s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000082s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\fenliao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/school_sign.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000186s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-14T10:31:51+08:00 ] 127.0.0.1 GET www.fenliao.com/hvpfcjrqLE.php/school_sign/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1600050711045
+[运行时间：0.053005s] [吞吐率：18.87req/s] [内存消耗：4,414.56kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002473s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'school_sign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fqs018dgnikllu6roq5gqeiphs; keeplogin=1%7C86400%7C1600132047%7C1782605091ac28cb76e42e1a384cb656',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fenliao.com/hvpfcjrqLE.php/school_sign?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.fenliao.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1600050711045',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001532s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\editpage\Editpage @config_init [ RunTime:0.000076s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\fenliao\public/../application/admin/lang/zh-cn/school_sign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\fenliao\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
